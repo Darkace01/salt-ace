@@ -1,0 +1,21 @@
+{
+    "name": "salt-ace",
+    "displayName": "Salt Ace",
+    "description": "Sprinkle Salt over that ace",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Salt Ace",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Salt Ace-color-theme.json"
+            }
+        ]
+    }
+}
