@@ -3,6 +3,7 @@
     "displayName": "Salt Ace",
     "description": "Sprinkle Salt over that ace",
     "version": "0.0.1",
+    "publisher":"Kazeem-Quadri",
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -17,5 +18,9 @@
                 "path": "./themes/Salt Ace-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/darkace01/repository.git"
+      }
 }
