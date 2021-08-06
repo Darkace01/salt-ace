@@ -1,7 +1,7 @@
 {
     "name": "salty-sea",
-    "displayName": "Salt Ace",
-    "description": "Sprinkle Salt over that ace",
+    "displayName": "Salty Sea",
+    "description": "Sprinkle Salt over that sea",
     "version": "0.0.2",
     "publisher":"Kazeem-Quadri",
     "engines": {
@@ -15,7 +15,7 @@
             {
                 "label": "Salt Ace",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Salt Ace-color-theme.json"
+                "path": "./themes/Salty Sea-color-theme.json"
             }
         ]
     },
