@@ -2,7 +2,7 @@
     "name": "salty-sea",
     "displayName": "Salty Sea",
     "description": "Sprinkle Salt over that sea",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher":"KazeemQuadri",
     "icon": "themes/images/salty.png",
     "engines": {
@@ -22,6 +22,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/darkace01/repository.git"
+        "url": "git://github.com/darkace01/salt-ace.git"
       }
 }
