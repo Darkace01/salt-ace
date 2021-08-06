@@ -42,6 +42,7 @@
     "author": "Kazeem Quadri <quadrikazeem01@gmail.com> (https://kaz.com.ng)",
     "license": "MIT",
     "scripts": {
-        "deploy": "vsce publish --yarn"
+        "deploy": "vsce publish --yarn",
+        "package": "vsce package"
       }
 }
