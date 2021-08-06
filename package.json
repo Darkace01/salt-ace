@@ -1,8 +1,8 @@
 {
-    "name": "salt-ace",
+    "name": "salty-sea",
     "displayName": "Salt Ace",
     "description": "Sprinkle Salt over that ace",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher":"Kazeem-Quadri",
     "engines": {
         "vscode": "^1.58.0"
