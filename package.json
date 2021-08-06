@@ -2,7 +2,7 @@
     "name": "salty-sea",
     "displayName": "Salty Sea",
     "description": "Sprinkle Salt over that sea",
-    "version": "0.0.91",
+    "version": "0.0.92",
     "publisher": "KazeemQuadri",
     "icon": "themes/images/salty.png",
     "engines": {
