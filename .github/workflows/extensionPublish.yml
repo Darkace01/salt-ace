@@ -26,6 +26,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      # Setup Nodejs Environment
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
       #Publish the extension to Microsoft Market Place
@@ -34,5 +35,22 @@ jobs:
         run: |
           npm i
           npm run deploy
+          npm run package
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      # Create a release
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body_path: "**.vsix"
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
+          draft: false
+          prerelease: false
