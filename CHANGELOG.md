@@ -12,3 +12,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Icon to the extension
+
+## [0.0.8] - 2021-08-06
+
+### Added
+
+- bugs link
+- `salt-ace` package
+- update keywords
+- Author
+- Licence
+- Homepage
