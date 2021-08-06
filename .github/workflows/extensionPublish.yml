@@ -27,10 +27,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
       #Publish the extension to Microsoft Market Place
       - name: Publish
-        if: success() && startsWith( github.ref, 'refs/tags/releases/') && matrix.os == 'ubuntu-latest'
-        run: npm run deploy
+        if: success() 
+        run: |
+          npm i
+          npm run deploy
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
