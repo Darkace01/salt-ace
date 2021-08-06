@@ -2,7 +2,15 @@
 
 A blend between the default theme and a touch of blue and red
 
-## Install
+## ⌨️ Installation
+
+Preferences:
+
+1. Go to `Extensions`
+2. Search for `Salty Sea` and install it.
+3. Go to `Color Themes` and choose `Salty Sea` as the color theme or `CMD + Shift + P` and enter Command `> color theme` and choose `Salty Sea`.
+
+Or
 
 press `ctl/command + shift + p` to launch the command palette then run
 
