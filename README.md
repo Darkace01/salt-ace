@@ -14,7 +14,7 @@ ext install salty-sea
 
 Screenshot of Ruby and JavaScript
 
-![Theme Screenshot](/theme/images/salty-sea-screenshot.png)
+![Theme Screenshot](themes/images/salty-sea-screenshot.png)
 
 If you like this theme checkout [One Dark Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.theme-onedark)
 
