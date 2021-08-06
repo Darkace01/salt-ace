@@ -3,7 +3,7 @@
     "displayName": "Salty Sea",
     "description": "Sprinkle Salt over that sea",
     "version": "0.0.5",
-    "publisher":"KazeemQuadri",
+    "publisher": "KazeemQuadri",
     "icon": "themes/images/salty.png",
     "engines": {
         "vscode": "^1.58.0"
@@ -23,5 +23,11 @@
     "repository": {
         "type": "git",
         "url": "git://github.com/darkace01/salt-ace.git"
+    },
+    "devDependencies": {
+        "vsce": "^1.96.1"
+    },
+    "scripts": {
+        "deploy": "vsce publish --yarn"
       }
 }
