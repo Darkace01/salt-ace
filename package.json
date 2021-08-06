@@ -2,8 +2,9 @@
     "name": "salty-sea",
     "displayName": "Salty Sea",
     "description": "Sprinkle Salt over that sea",
-    "version": "0.0.2",
-    "publisher":"Kazeem-Quadri",
+    "version": "0.0.3",
+    "publisher":"KazeemQuadri",
+    "icon": "themes/images/salty.png",
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -13,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Salt Ace",
+                "label": "Salty Sea",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Salty Sea-color-theme.json"
             }
