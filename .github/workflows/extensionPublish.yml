@@ -47,7 +47,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body_path: '*'
+          body_path: '/'
           body: |
             Changes in this Release
             - First Change
