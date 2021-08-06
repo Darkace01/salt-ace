@@ -22,13 +22,16 @@
 		"statusBarItem.remoteForeground": "#ffffff",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"tab.lastPinnedBorder": "#cccccc33",
-		"statusBar.background": "#00bbd4",
 		"activityBar.background": "#00bbd4",
 		"activityBar.foreground": "#d40000",
 		"activityBar.inactiveForeground": "#ffffff",
 		"badge.background": "#d400008c",
 		"panelTitle.activeBorder": "#d40000",
-		"statusBar.debuggingBackground": "#00bbd4"
+		"statusBar.background": "#00bbd4",
+		"statusBar.debuggingBackground": "#d40000",
+		"statusBar.noFolderBackground": "#00bbd4a6",
+		"textLink.foreground": "#d40000",
+		"textLink.activeForeground": "#00bbd4",
 	},
 	"tokenColors": [
 		{
