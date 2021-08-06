@@ -2,7 +2,7 @@
     "name": "salty-sea",
     "displayName": "Salty Sea",
     "description": "Sprinkle Salt over that sea",
-    "version": "0.0.5",
+    "version": "0.0.9",
     "publisher": "KazeemQuadri",
     "icon": "themes/images/salty.png",
     "engines": {
@@ -27,6 +27,20 @@
     "devDependencies": {
         "vsce": "^1.96.1"
     },
+    "bugs": {
+        "url": "https://github.com/darkace01/salt-ace/issues"
+    },
+    "homepage": "https://github.com/darkace01/salt-ace/blob/master/README.md",
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Onedark",
+        "Monokai",
+        "salt",
+        "sea"
+    ],
+    "author": "Kazeem Quadri <quadrikazeem01@gmail.com> (https://kaz.com.ng)",
+    "license": "MIT",
     "scripts": {
         "deploy": "vsce publish --yarn"
       }
