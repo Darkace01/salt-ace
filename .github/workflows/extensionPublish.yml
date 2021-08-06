@@ -32,7 +32,8 @@ jobs:
       #Publish the extension to Microsoft Market Place
       - name: Publish
         if: success() 
-        run: npm i
+        run: |
+          npm i
           npm run deploy
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
