@@ -42,3 +42,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Side bar title section color
+
+## [0.1.3] - 2021-08-16
+
+### Added
+
+- Tweaked the color of highlighter
